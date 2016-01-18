@@ -1,0 +1,48 @@
+---
+layout: default
+title: Story Builder
+---
+	<div class="StoryBuilder">
+		<h1>About Story Builder</h1>
+		<p>Story Builder is an iOS literacy application designed to allow kids to ineract with sight words more meaningfully. This interaction occurs by having a alphabetically sorted list of words that the teacher has assigned the student. A child chooses a word from the list, the word will be spoken aloud, and it will become a tile in the play area. In the play area, a child can connect these tiles to create phrases. When a tile or group of connected tiles (a phrase) is added to a single tile or phrase the whole connected phrase will be spoken aloud. Side Note: From the word assignment website, Word River, the assigned words are also be grouped into packs, called word packs. The word list can be filtered by the word pack they're assigned to, the word list can also be filtered by their beginning letter. Here, I have a couple images of what the application looks like. The first is upon opening the application. The second image includes words in the play area. Below the images I have a list of the work I completed.</p>
+
+		<ul style="list-style: none;">
+			<li><img src="IMG_0035.PNG"></li>
+			<br><br>
+			<li><img src="IMG_0033.PNG"></li>
+		</ul>
+<font size = "5">
+		<ul style="list-style: none;"> 
+			<li> General Tasks: </li>
+				<ul>
+					<li> Moved project from Dropbox to GitHub. </li>
+					<li> Story Builder was receiving words from a posted list online. Changed to get words and word packs related to a specific student ID through Word River's API. Used SwiftyJSON to parse API. </li>
+				</ul> <br>
+			<li> Previous to my work, the application layout included: </li>
+				<ul>
+					<li> Scrollable list on the left-hand side for choosing words. </li>
+					<li> 'Add Random Word' button which added the next word from a hardcoded list. </li>
+					<li> 'Trash' button to clear all words in the interactive area currently. </li>
+					<li> When selected, a word appears as a tile in the interactive area as a randomly chosen color and is spoken aloud.  </li>
+					<li> When selected in the interactive area, the tile is spoken again. If a word or phrase is connected to another word or phrase, the whole connected phrase will be spoken. </li>
+				</ul> <Br>
+			<li> Modifications I included: </li>
+				<ul>
+					<li> Added the current elements programmatically to allow more control over functionality (Words list and buttons). </li>
+					<li> All elements from this point are added programmatically.  </li>
+					<li> Scroll bar width is adjusted based on the longest word length, but limited by the amount of characters to leave room for interaction. </li>
+					<li> When selected, a word color is chosen by its 'Word Type'. Currently includes red, green, yellow, and blue for color options. (Some 'Word Types' overlap in color) </li>
+					<li> Added toolbar to list the Word Pack names and filter the listed words for those in the given Word Pack. This toolbar also has a refresh button to update words and Word Packs assigned from Word River. </li>
+					<li> Added another toolbar with the listed alphabet to filter the listed words based on their starting letter. </li>
+					<li> 'Add Random Word' currently adds words from a hardcoded list for demonstration purposes. </li>
+					<li> Trash button is now 'Clear Tiles' to be less ambiguous and placed higher on screen to limit accidental selection by resting hand. </li>
+					<li> Optimized running time by how the information is gathered </li>
+					<li> Commented functions where possible to help the next person work with this project. This can be seen on the GitHub repository page <a href="https://github.com/casal033/StoryBuilder"> here </a> at:
+					<ul>
+						<li> <a href="https://github.com/casal033/StoryBuilder/blob/master/MultiViews/GameViewController.swift"> GameViewController </a> </li>
+						<li> <a href="https://github.com/casal033/StoryBuilder/blob/master/MultiViews/GameViewController.swift"> WordList </a> </li>
+					</ul>
+				</ul>
+		</ul>
+</font>
+	</div>
