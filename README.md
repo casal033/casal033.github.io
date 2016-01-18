@@ -1,4 +1,4 @@
-# maggie_casale.github.io
+# maggiecasale.github.io
 
 Maggie Casale's Homepage
-Live site at: http://maggie_casale.github.io
+Live site at: http://maggiecasale.github.io
