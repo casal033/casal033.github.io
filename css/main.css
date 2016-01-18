@@ -1,8 +1,15 @@
 body {
-	background-image: url("beautiful.jpg");
     margin: 60px auto;
     width: 70%;
-
+}
+#bg {
+  top: 0; 
+  left: 0; 
+	
+  /* Preserve aspet ratio */
+  width: auto;
+  height: auto;
+  padding: 10px 50px;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
