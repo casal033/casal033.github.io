@@ -67,3 +67,15 @@ div.theBox {
   background-color: #9999FF;
   border: 1px solid black;
 }
+hf {
+	font-family: 'Comic Sans MS';
+	font-size: 60px;
+    padding: 0px;
+	font-weight: bold;
+}
+hh{
+	font-family: Courier New;
+	font-size: 60px;
+    padding: 0px;
+	font-weight: bold;
+}
