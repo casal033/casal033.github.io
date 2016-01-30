@@ -73,6 +73,12 @@ hf {
     padding: 0px;
 	font-weight: bold;
 }
+hlink {
+	font-family: 'Comic Sans MS';
+	font-size: 30px;
+    padding: 0px;
+	font-weight: bold;
+}
 hh{
 	font-family: Courier New;
 	font-size: 60px;
